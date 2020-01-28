@@ -1,0 +1,13 @@
+1.27
+ctrl+alt+b 查看类实现方法
+@RequestMapping 注解映射请求路径 使用方法@RequestMapping(value="")
+对页面的异步加载，服务器优先将网页框架传给浏览器进行渲染，在将所有的json数据传给浏览器放入页面中。
+网页的加载也能一部分一部分（比如一个div）的传输。解决同时加载缓慢的问题。
+dao连接数据库，实现对数据库操作的封装 server连接dao，引用dao对数据库的操作，实现各种功能 controller管理server的调度，满足需求
+平时运用最多的是jdk\jre\lib,其中包含了java运行时环境所使用的核心类库
+idea中在view→tool windows→structure打开代码结构
+elementData中存放的都是指针
+ArrayList中add方法:在数组的任意位置插入新的元素，如果数组满了，则建立新的数组，数组大小增加原来的一半，并将原来数组插入位置后面的元素按顺序复制到原数组插入位置+1的位置
+ArrayList中get方法:判断元素是否在数组内，如果不在，则抛出异常
+ArrayList中remove方法:删除元素后面的所有元素从被删除元素位置开始复制到原数组中
+idea中左上角十字叉图标可以快速定位现在打开的代码在项目中的位置
