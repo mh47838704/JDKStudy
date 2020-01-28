@@ -232,7 +232,7 @@ public class ArrayList<E> extends AbstractList<E>
     }
 
     private void ensureExplicitCapacity(int minCapacity) {
-        modCount++;
+        modCount++; //修改次数加一
 
         // overflow-conscious code
         if (minCapacity - elementData.length > 0)
