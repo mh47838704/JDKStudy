@@ -19,5 +19,6 @@ github 使用
 4.在自己本地代码跟自己分支代码相同的情况下，才能git checkout master到主分支
 5.在主分支进行git pull，将主分支修改的代码pull到本地（现在代码可能会跟自己本地代码不同）
 6.git merge master，将master的代码合并到本地
-
-@Test
+使用maven。在pom.xml中可以实现配置文件的快速导入（https://mvnrepository.com/）
+将数组中的指针调换位置，该指针表示的元素的值不变。直接调换元素的位置，元素的值交换大小
+@Test方法可以不用main方法调用就可以测试出运行结果（需要导入junit）
