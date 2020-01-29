@@ -61,7 +61,7 @@ public class MyArrayList<E> {
     }
 
 
-    // 测试//
+    // 测试
     public static void main(String[] args) {
         MyArrayList s1 = new MyArrayList(10);
         s1.add("aa");
