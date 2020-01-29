@@ -3,7 +3,7 @@ package uni.stu.jdk;
 public class MyArrayList<E> {
 
 
-    private static final Object[] EMPTY_ELEMENTDATA ={} ;
+    private static final Object[] EMPTY_ELEMENTDATA = {};
     //定义数组
     private Object[] elementData;
     //定义容量
@@ -24,12 +24,11 @@ public class MyArrayList<E> {
      * @param capacity//容量大小
      */
     public MyArrayList(int capacity) {
-        if (capacity>0){
-        elementData = new Object[capacity];}
-        else if (capacity==0){
-            elementData= EMPTY_ELEMENTDATA;
-        }
-        else return;
+        if (capacity > 0) {
+            elementData = new Object[capacity];
+        } else if (capacity == 0) {
+            elementData = EMPTY_ELEMENTDATA;
+        } else return;
     }
 
     /**
@@ -38,7 +37,7 @@ public class MyArrayList<E> {
      * @param element
      */
     public void add(E element) {
-        if (size>=elementData.length) {
+        if (size >= elementData.length) {
             return;
         }
         elementData[size++] = element;
