@@ -3,6 +3,7 @@ package uni.stu.jdk;
 public class MyArrayList<E> {
 
 
+    private static final Object[] EMPTY_ELEMENTDATA ={} ;
     //定义数组
     private Object[] elementData;
     //定义容量
@@ -23,7 +24,12 @@ public class MyArrayList<E> {
      * @param capacity//容量大小
      */
     public MyArrayList(int capacity) {
-        elementData = new Object[capacity];
+        if (capacity>0){
+        elementData = new Object[capacity];}
+        else if (capacity==0){
+            elementData= EMPTY_ELEMENTDATA;
+        }
+        else return;
     }
 
     /**
@@ -32,7 +38,7 @@ public class MyArrayList<E> {
      * @param element
      */
     public void add(E element) {
-        if (elementData.length > size) {
+        if (size>=elementData.length) {
             return;
         }
         elementData[size++] = element;
@@ -60,17 +66,17 @@ public class MyArrayList<E> {
     public static void main(String[] args) {
         MyArrayList s1 = new MyArrayList(10);
         s1.add("aa");
-        s1.add("bb");
-        s1.add("cc");
         s1.add("aa");
-        s1.add("bb");
-        s1.add("cc");
         s1.add("aa");
-        s1.add("bb");
-        s1.add("cc");
         s1.add("aa");
-        s1.add("bb");
-        s1.add("cc");
+        s1.add("aa");
+        s1.add("aa");
+        s1.add("aa");
+        s1.add("aa");
+        s1.add("aa");
+        s1.add("aa");
+        s1.add("aa");
+        s1.add("aa");
         System.out.println(s1);
 
     }
