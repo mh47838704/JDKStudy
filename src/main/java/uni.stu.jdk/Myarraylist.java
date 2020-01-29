@@ -55,7 +55,7 @@ public class Myarraylist {
     }
 
 
-    // 测试//
+    // 测试
     public static void main(String[] args) {
         uni.stu.jdk.Add s1 = new uni.stu.jdk.Add(10);
         s1.add("aa");
