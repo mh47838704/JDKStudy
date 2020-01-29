@@ -22,3 +22,4 @@ github 使用
 使用maven。在pom.xml中可以实现配置文件的快速导入（https://mvnrepository.com/）
 将数组中的指针调换位置，该指针表示的元素的值不变。直接调换元素的位置，元素的值交换大小
 @Test方法可以不用main方法调用就可以测试出运行结果（需要导入junit）
+1.29
