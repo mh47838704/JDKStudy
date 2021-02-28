@@ -34,7 +34,7 @@ public class WaterArray {
             int stackTop = indexStack.peek();
             if (height[i] <= height[stackTop]) {
                 // 小于等于push
-                    indexStack.push(i);
+                indexStack.push(i);
                 continue;
             }
             // 大于计算
